@@ -22,6 +22,7 @@ import threejs from "./tech/threejs.svg";
 import andersenLab from "./company/andersenLab.png";
 
 import nasa from "./nasa.jpg";
+import portfolio from "./portfolio.jpg";
 
 export {
   logo,
@@ -45,4 +46,5 @@ export {
   threejs,
   andersenLab,
   nasa,
+  portfolio,
 };

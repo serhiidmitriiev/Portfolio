@@ -15,6 +15,7 @@ import {
   jest,
   andersenLab,
   nasa,
+  portfolio,
   threejs,
 } from "../assets";
 
@@ -202,6 +203,27 @@ const projects = [
     ],
     image: nasa,
     source_code_link: "https://github.com/serhiidmitriiev/NASA-Project",
+  },
+  {
+    name: "Portfolio",
+    description:
+      "Landing page describing my working experience, testimonials, and technologies I've used as a developer.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "three.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: portfolio,
+    source_code_link: "https://github.com/serhiidmitriiev/Portfolio",
   },
 ];
 
